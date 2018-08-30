@@ -1,0 +1,26 @@
+ {
+
+	"stats": [{
+
+		"name": "Germany",
+		"players": [" Mesut Ozil", " Juilian Draxler", " Mario Gotze"],
+		"goals": ["2", "3", "5"],
+		"Assists": ["2", "3", "5"],
+		"Minutes": ["720", "321", "556"],
+		"Distance": ["54km", "14km", "89km"]
+	}, {
+		"name": "France",
+		"players": [" Paul Pogba", " Anythony Martial", " Killian mbappe"],
+		"goals": ["2", "3", "5"],
+		"Assists": ["2", "3", "5"],
+		"Minutes": ["712", "311", "652"],
+		"Distance": ["23km", "52km", "76km"]
+	}, {
+		"name": "Spain",
+		"players": [" David sliva", " Sergio ramos", " Alvaro Morata"],
+		"goals": ["2", "3", "5"],
+		"Assists": ["2", "3", "5"],
+		"Minutes": ["200", "322", "775"],
+		"Distance": ["4km", "83km", "74km"]
+	}]
+}
