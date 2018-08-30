@@ -1,16 +1,5 @@
-$(function () {
 
-    function myfunction(){
-        var x = document.getElementById("Logo");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-
-
-    function hover(ContinentHover) {
+function hover(ContinentHover) {
         var elem = document.getElementsByClassName(ContinentHover);
         var test = document.getElementsByClassName('continent-container');
         for (var i = 0; i < elem.length; i++) {
