@@ -1,0 +1,424 @@
+ 
+/* css for the general body includding the body and headings */
+body {
+    font-size: 15px;
+    line-height: 1.42857;
+    color: #1a1d1e;
+    background-color: #fff;
+}
+.tooltip, body {
+    font-family: OpenSans-Regular,Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+p {
+    margin: 0 0 10.5px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+
+h2{
+    font-family: PruModern-BoldSemiCon;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 0;
+}
+h2 {
+    color: #001f45;
+    margin:25px;
+}
+h3{
+    Font-family: 'PruModern-BoldSemiCon';
+    Font-size: 20px, md+ 24px;
+    Margin-top: 21px;
+    Margin-Bottom: 10.5px;
+    Line-height: 1.1;
+}
+a {
+    color: #07639d;
+    text-decoration: none;
+}
+/* text under images in stadiums, stats, and info */
+a.module-cta {
+    margin:0px;
+}
+div.row{
+    padding-bottom:3%;
+}
+.buttonGroup{
+    padding-left:35%;
+}
+.ng-binding{
+    padding-bottom:10%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #07639d;
+    border-color: #07639d;
+}
+
+.btn-group-vertical>.btn.active, .btn-group-vertical>.btn:active, .btn-group-vertical>.btn:focus, .btn-group-vertical>.btn:hover, .btn-group>.btn.active, .btn-group>.btn:active, .btn-group>.btn:focus, .btn-group>.btn:hover {
+    z-index: 2;
+    color:white;
+    background-color: #07639d;
+}
+/* stadiums */
+a.stadia{
+    text-align: center;
+    padding-left:30%;
+    padding-bottom: 10%;
+}
+
+.spacebetweenstadiums{
+    margin-bottom:4%;
+}
+
+.hideshowtxtbtn{
+
+   margin-left: 20%;
+}
+/* the count css */
+.count {
+    line-height: 100px;
+    color:white;
+    margin-left:30px;
+    font-size:62px;
+    padding-left:40%;
+    text-align: center;
+}
+.counted{
+    padding-left:40%;
+    color:rgb(255, 255, 255);
+    font-size: 62px;
+}
+.subject {
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 18px!important;
+    padding-left:42%;
+}
+/* the count css ends */
+/* The Modal (background) */
+imgmodal {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.imgmodal:hover {
+    opacity: 0.7;
+}
+.modal {
+    display: none;
+   /* Hidden by default */
+    position: fixed;
+   /* Stay in place */
+    z-index: 1;
+   /* Sit on top */
+    padding-top: 100px;
+   /* Location of the box */
+    left: 0;
+    top: 0;
+    width:auto;
+   /* Full width */
+    height: auto;
+   /* Full height */
+    overflow: auto;
+   /* Enable scroll if needed */
+    background-color: rgb(0,0,0);
+   /* Fallback color */
+    background-color: rgba(0,0,0,0.9);
+   /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 65px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 60px;
+    height: 60px;
+}
+.close::after, .close::before {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 90%;
+    height: 2px;
+    margin-top: -1px;
+    content: "";
+    background: #fff;
+    color:white;
+    border-radius: 5px;
+}
+input{
+    height: 35px;
+    font-size: 15px;
+}
+
+.centerMoreInformation{
+    margin-left: 43%;
+}
+/* Modal Content (image) end */
+/* Table css */
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    margin:0;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    margin:0;
+    color: rgb(0, 0, 0);
+}
+table td {
+    border-bottom: 1px solid #e5e5e5;
+}
+​ table td:last-child {
+    border-bottom: none;
+}
+tr td:nth-of-type(1) {
+    padding-right:50px;
+}
+table t:last-child {
+    border-bottom: none;
+}
+#tabledata{
+    height:500px;
+}
+/* Table css end */
+/* Random stats */
+
+p#result{
+    
+    margin-right:10%;
+    font-family: OpenSans-Regular,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: OpenSans-Regular,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    
+}
+.stats2014{
+    padding-top:2%;
+    padding-bottom:7%;
+    margin-left:10%;
+    
+   
+}
+
+#arrownext{
+    font-size: 32px;
+    margin-left:2.5%;
+}
+
+#arrowprev{
+    font-size: 32px;
+    margin-right:2.5%;
+}
+
+/* Random stats css end */
+/* Back to top */
+#back2Top {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    padding: 5px 3px 5px 7px;
+    position: fixed;
+    bottom: 20px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: #3366CC;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+fa {
+   /* font: normal normal normal 14px/1 FontAwesome;
+    */
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* end */
+/* counries on hover css */
+.hrblack{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.name{
+    font-size: 27px;
+    line-height: 2;
+    height: auto;
+    padding-left:40px;
+    color: #001f45;
+    position:relative;
+    font-family: PruModern-BoldSemiCon;
+    font-size: 24px;
+}
+.russiaimg{
+    position: absolute;
+    top:15px;
+    border: 1px solid #c7c6c6;
+    width: 32px;
+}
+li {
+    list-style-type: none;
+}
+#countries{
+    padding-bottom:50px;
+    padding-top:30px;
+}
+#popup {
+    display: none;
+    height:auto;
+}
+.col-md-2{
+    width: 20%;
+}
+.flag {
+    width: 32px;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    white-space:nowrap;
+}
+.team-name {
+    font-size: 16px;
+    white-space:nowrap;
+}
+li {
+    display: inline-block;
+    margin:0 0 15px 0;
+}
+/* counries on hover end */
+/* From */
+.help-block {
+    color: red;
+}
+/* Media query */
+@media all and (max-width: 1200px) and (min-width: 724px) {
+    .team-name {
+        font-size: 16px;
+   }
+ 
+
+   .col-lg-6{
+       padding-left:25%;
+
+   }
+}
+@media all and (max-width: 360px) {
+    .btn-default{
+        font-size:10px;
+   }
+}
+@media screen and (max-width: 624px) {
+    .hide {
+        display: none;
+   }
+   .col-lg-6{
+    padding-left:25%;
+  
+
+}
+
+a .stadia{
+    color:pink;
+}
+
+    #tabledata{
+        height:500%;
+   }
+    #quoteButton{
+        margin-top: 50px;
+        text-align: center;
+   }
+    .btn-default{
+        font-size:10px;
+   }
+    table_body {
+        display: block;
+   }
+    .flag {
+        width: 32px;
+   }
+    .team-name {
+        font-size: 16px;
+        white-space:nowrap;
+   }
+}
+/* make page print firendly */
+@media print{
+    .h1{
+        font-size:25px;
+        line-height:1.125;
+   }
+    h2{
+        font-size: 21px;
+   }
+    h3{
+        font-size: 20px;
+   }
+    h3{
+        font-size: 20px;
+   }
+    h4{
+        font-size: 20px;
+   }
+    h5{
+        font-size: 16px;
+   }
+    h6{
+        font-size: 16px;
+   }
+    body{
+        margin:2cm;
+        font-size: 10px;
+        font-family: Arial, Helvetica;
+        color:rgb(255, 255, 255);
+        text-shadow: none;
+        background: none;
+        box-shadow: none;
+   }
+    a:visited {
+        border-bottom-color:rgba(255,255,255,0);
+   }
+    img{
+        height:100%;
+   }
+  
+    table{
+        background-color:white 
+   }
+}
